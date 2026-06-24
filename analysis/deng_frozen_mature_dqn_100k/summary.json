@@ -1,0 +1,50 @@
+{
+  "N_oracle_seeds_per_checkpoint_min": 3,
+  "N_victim_checkpoints": 10,
+  "adaptive_continuation_dqn_profit_mean": 0.25661592449446,
+  "adaptive_continuation_dqn_profit_sample_sd_checkpoint_means": 0.012621500803636125,
+  "adaptive_entrant_minus_incumbent_exact_sign_test_p_two_sided": 0.75390625,
+  "adaptive_entrant_minus_incumbent_profit_bootstrap_ci_95": [
+    -0.006799492118296592,
+    0.022045300817530027
+  ],
+  "adaptive_entrant_minus_incumbent_profit_mean": 0.007274493829948677,
+  "adaptive_entrant_minus_incumbent_sign_flip_sensitivity_p_two_sided": 0.376953125,
+  "adaptive_entrant_outperforms_incumbent_checkpoint_count": 6,
+  "adaptive_minus_frozen_eval_exact_sign_test_p_two_sided": 0.001953125,
+  "adaptive_minus_frozen_eval_profit_bootstrap_ci_95": [
+    -0.0685895312910732,
+    -0.021539631823659592
+  ],
+  "adaptive_minus_frozen_eval_profit_mean": -0.04390359311816411,
+  "adaptive_minus_frozen_eval_profit_sample_sd": 0.0401907717222754,
+  "adaptive_minus_frozen_eval_sign_flip_sensitivity_p_two_sided": 0.001953125,
+  "adaptive_minus_frozen_profit_asymmetry_bootstrap_ci_95": [
+    -0.09062697014441899,
+    -0.030137759156485134
+  ],
+  "adaptive_minus_frozen_profit_asymmetry_exact_sign_test_p_two_sided": 0.021484375,
+  "adaptive_minus_frozen_profit_asymmetry_mean": -0.05850406632682874,
+  "adaptive_minus_frozen_profit_asymmetry_sign_flip_sensitivity_p_two_sided": 0.00390625,
+  "adaptive_profit_below_frozen_checkpoint_count": 10,
+  "all_victim_clocks_unchanged": true,
+  "all_victim_q_tables_unchanged": true,
+  "design_premium_exact_permutation_p_two_sided": 0.3616878477559592,
+  "design_premium_hierarchical_bootstrap_ci_95": [
+    -0.013116273466216926,
+    0.0395394603367697
+  ],
+  "design_premium_mean": 0.012055331770256972,
+  "frozen_entrant_minus_incumbent_exact_sign_test_p_two_sided": 0.021484375,
+  "frozen_entrant_minus_incumbent_profit_bootstrap_ci_95": [
+    0.03746462397763438,
+    0.09412928318263361
+  ],
+  "frozen_entrant_minus_incumbent_profit_mean": 0.06577856015677744,
+  "frozen_entrant_minus_incumbent_sign_flip_sensitivity_p_two_sided": 0.005859375,
+  "frozen_entrant_outperforms_incumbent_checkpoint_count": 9,
+  "frozen_mature_dqn_profit_mean": 0.3005195176126242,
+  "frozen_mature_dqn_profit_sample_sd_checkpoint_means": 0.03822478987036168,
+  "joint_from_scratch_dqn_profit_mean": 0.2884641858423672,
+  "joint_from_scratch_dqn_profit_sample_sd": 0.005049572238798988
+}

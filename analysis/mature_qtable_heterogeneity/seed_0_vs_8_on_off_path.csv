@@ -1,0 +1,4 @@
+region,count,mean_abs_diff,rmse
+terminal selected cell,1,0.0,0.0
+terminal-row alternative actions,14,0.07992385192238936,0.09253310147089124
+all other states/actions,3360,0.07952145155688818,0.10195233963411501

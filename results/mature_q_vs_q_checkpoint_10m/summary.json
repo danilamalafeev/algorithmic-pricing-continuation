@@ -1,0 +1,49 @@
+{
+  "B": 64,
+  "K": 15,
+  "checkpoint_path": "C:\\Users\\\u044f\\Documents\\RLpricewars\\results\\mature_q_vs_q_checkpoint_10m\\mature_victim_state.npz",
+  "checkpoint_sha256": "cf47aa1806ac11bb65ddcbad82465e08cab97545181c2b3cb4cfb384afaad08d",
+  "completed_at": "2026-06-16T14:36:52.667403+00:00",
+  "completed_steps": 10000000,
+  "completion_status": "complete",
+  "converged": true,
+  "final_eval": {
+    "completed_steps": 10000000,
+    "converged": true,
+    "cycle_length": 1,
+    "elapsed_seconds": 18.602319000000534,
+    "epsilon_agent_0": 4.248354255291589e-18,
+    "epsilon_agent_1": 4.248354255291589e-18,
+    "last_prices": [
+      1.7377012974373498,
+      1.8151963132636324
+    ],
+    "market_price": 1.7764488053505032,
+    "price_agent_0": 1.7377012974373955,
+    "price_agent_1": 1.8151963132636109,
+    "profit_agent_0": 0.35403750568697195,
+    "profit_agent_1": 0.28695136895190754,
+    "stable_counter": 8009009,
+    "state_id": 130,
+    "steps_per_second": 650197.4217188432,
+    "symmetric_profit": 0.3204944373194397,
+    "timestamp": "2026-06-16T14:36:52.642384+00:00"
+  },
+  "final_market_price": 1.7764488053505032,
+  "final_symmetric_profit": 0.3204944373194397,
+  "metadata": {
+    "cuda_available": true,
+    "device": "cuda",
+    "dirty_diff_hash": "6dbf2b48c769c945c604847688ccb5f9c76e0f1602bd7dac066a01024765b651",
+    "dirty_worktree": true,
+    "git_commit": "943bddcaad3a07d03696ef5268ff57c33692d496",
+    "hostname": "DESKTOP-2GSSQIN",
+    "python_version": "3.11.13",
+    "torch_version": "2.5.1+cu121"
+  },
+  "q_table_sha256": "1e9e71725282849bf9777d70c8f2c95a1ab639ceb78fdeeaa8042419db7556ad",
+  "resume_count": 1,
+  "started_at": "2026-06-16T14:35:49.804384+00:00",
+  "summary_schema_version": 1,
+  "total_steps": 10000000
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the working paper."
+title: "Frozen-Opponent Evaluation and Live-Update Continuation in Algorithmic Pricing"
+authors:
+  - family-names: Malafeev
+    given-names: Danila
+    affiliation: "National Research University Higher School of Economics"
+    email: dsmalafeev@edu.hse.ru
+date-released: "2026-06-24"
+version: "1.0.0"
+license: MIT
+type: software
+keywords:
+  - algorithmic pricing
+  - reinforcement learning
+  - industrial organization
+  - Bertrand competition
+  - multi-agent evaluation

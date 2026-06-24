@@ -1,0 +1,6 @@
+contrast,estimate,ci_low,ci_high,p_value,test,statistical_unit
+DQN entrant minus incumbent under frozen evaluation,0.06577856015677744,0.03746462397763438,0.09412928318263361,0.021484375,Exact two-sided binomial sign test; checkpoint bootstrap CI,mature checkpoint mean over three DQN seeds
+DQN entrant minus incumbent under adaptive continuation,0.007274493829948677,-0.006799492118296592,0.022045300817530027,0.75390625,Exact two-sided binomial sign test; checkpoint bootstrap CI,mature checkpoint mean over three DQN seeds
+Adaptive minus frozen entrant advantage,-0.05850406632682874,-0.09062697014441899,-0.030137759156485134,0.021484375,Exact two-sided binomial sign test; checkpoint bootstrap CI,mature checkpoint mean over three DQN seeds
+Frozen mature entry minus joint learning from scratch,0.012055331770256972,-0.013116273466216926,0.0395394603367697,,Descriptive contrast; hierarchical percentile-bootstrap CI,mature checkpoint mean versus joint-learning seed
+Adaptive continuation minus frozen evaluation,-0.04390359311816411,-0.0685895312910732,-0.021539631823659592,0.001953125,Exact two-sided binomial sign test; checkpoint bootstrap CI,mature checkpoint mean over three DQN seeds

@@ -1,0 +1,7 @@
+probe,signature,manuscript_role
+DQN controls,lower-price basin; destructive undercutting,Generic learned control
+Tabular full-information regret matching,stable low-price undercutting,Counterfactual-value control
+Latent-prediction DQN (JEPA-style),representation gain without Q-vs-Q recovery,Main learned architecture probe
+Q-supervised opponent-model DQN,opponent-awareness/price-umbrella behavior in some runs; no Q-vs-Q recovery,Main learned architecture probe with privileged-supervision caveat
+Q-row reconstruction DQN,Q-structure auxiliary target without Q-vs-Q recovery,Privileged-supervision diagnostic
+Model-based Q-update rollout planner,model-based rollout below Q-vs-Q reference under available default evaluation,Privileged-rollout diagnostic

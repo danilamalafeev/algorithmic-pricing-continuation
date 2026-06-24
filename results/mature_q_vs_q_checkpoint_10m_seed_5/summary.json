@@ -1,0 +1,49 @@
+{
+  "B": 64,
+  "K": 15,
+  "checkpoint_path": "./results/mature_q_vs_q_checkpoint_10m_seed_5/mature_victim_state.npz",
+  "checkpoint_sha256": "551a930fc1a330039f3a898bc2d32554416c363ea01cfd73146300f3829c4f83",
+  "completed_at": "2026-06-22T21:39:08.853811+00:00",
+  "completed_steps": 10000000,
+  "completion_status": "complete",
+  "converged": true,
+  "final_eval": {
+    "completed_steps": 10000000,
+    "converged": true,
+    "cycle_length": 2,
+    "elapsed_seconds": 54.599430790985934,
+    "epsilon_agent_0": 4.248354255291589e-18,
+    "epsilon_agent_1": 4.248354255291589e-18,
+    "last_prices": [
+      1.7377012974373498,
+      1.8151963132636324
+    ],
+    "market_price": 1.7377012974373862,
+    "price_agent_0": 1.718327543480826,
+    "price_agent_1": 1.7570750513939464,
+    "profit_agent_0": 0.3289694308928656,
+    "profit_agent_1": 0.29542636252532894,
+    "stable_counter": 7971203,
+    "state_id": 130,
+    "steps_per_second": 179906.61407602238,
+    "symmetric_profit": 0.31219789670909726,
+    "timestamp": "2026-06-22T21:39:08.783266+00:00"
+  },
+  "final_market_price": 1.7377012974373862,
+  "final_symmetric_profit": 0.31219789670909726,
+  "metadata": {
+    "cuda_available": false,
+    "device": "cpu",
+    "dirty_diff_hash": "b3b90c614d546e8b7c3c1ed05a20641cb44b22382c34ba24db923d4d33a473ee",
+    "dirty_worktree": true,
+    "git_commit": "49dccdabd35cb6c3373ce80cea1f396738c3fdb6",
+    "hostname": "Danilas-Laptop.local",
+    "python_version": "3.12.7",
+    "torch_version": "2.12.0"
+  },
+  "q_table_sha256": "30c7a4fa3cdc52a16104007e8d2998c6237e01cdeee8d66ed637d15a39275fcd",
+  "resume_count": 0,
+  "started_at": "2026-06-22T21:38:14.526494+00:00",
+  "summary_schema_version": 1,
+  "total_steps": 10000000
+}
